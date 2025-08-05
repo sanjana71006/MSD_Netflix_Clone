@@ -13,11 +13,6 @@ This project replicates the official Netflix India landing page with interactive
 - 🌐 Language selector dropdown
 - 📩 Email input forms
 
-## 📸 Preview
-
-![Netflix Clone Preview](https://user-images.githubusercontent.com/your-screenshot-url.png)  
-*(Replace the above URL with your own preview image from your repo)*
-
 ## 📁 Project Structure
 
 ```
