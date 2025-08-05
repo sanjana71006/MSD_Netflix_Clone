@@ -1,4 +1,3 @@
-```markdown
 # 🎬 Netflix Clone Landing Page
 
 A responsive Netflix landing page clone built using **HTML**, **CSS**, and **JavaScript**.  
@@ -72,5 +71,4 @@ This project is licensed under the MIT License - feel free to use and modify it!
 
 ⭐ Star this repo if you liked it and want to support the project!
 
-```
 
