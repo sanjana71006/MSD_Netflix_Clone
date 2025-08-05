@@ -30,40 +30,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-    
-    // Sign in button functionality
-    const signInBtn = document.querySelector('.sign-in-btn');
-    signInBtn.addEventListener('click', () => {
-        alert('Sign in functionality would be implemented here');
-    });
-    
-    // Get started button functionality
-    const getStartedBtns = document.querySelectorAll('.get-started-btn');
-    getStartedBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const emailInput = btn.previousElementSibling;
-            if (emailInput.value === '') {
-                alert('Please enter your email address');
-            } else if (!validateEmail(emailInput.value)) {
-                alert('Please enter a valid email address');
-            } else {
-                alert('Thank you for your interest! A signup page would load here.');
-            }
-        });
-    });
-    
-    // Email validation function
-    function validateEmail(email) {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(email);
-    }
 });
